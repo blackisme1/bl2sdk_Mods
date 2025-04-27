@@ -17,7 +17,6 @@ class SkinFix(ModMenu.SDKMod):
     Author: str = "Juso"
     Description: str = f"Allows the exec and set command for MaterialInstanceConstant Objects."
     SupportedGames: ModMenu.Game = ModMenu.Game.TPS
-    Priority: int = ModPriorities.High
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.LoadOnMainMenu
     
     def _exec_skins(command: str) -> None:
